@@ -12,7 +12,7 @@ source:
   sha256: b40c219edccc4564530c96f8f1556f6202b37cda964d1cbd7bd2b7e68b40a245
 
 build:
-  number: 0
+  number: 1
   script:
     - if: unix
       then: export CFLAGS="-D_BSD_SOURCE"
